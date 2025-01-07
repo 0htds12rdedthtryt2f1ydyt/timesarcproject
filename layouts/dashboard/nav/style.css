@@ -1,0 +1,96 @@
+.sidebar {
+    width: 250px;
+    transition: width 0.3s ease;
+  }
+  
+  .sidebar.close {
+    width: 70px;
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .submenu {
+    list-style: none;
+    padding: 0 20px;
+    display: none;
+  }
+  
+  .submenu.show {
+    display: block;
+  }
+  
+  .sidebar-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin: 10px;
+  }
+  .simplebar-content{
+    background-color: teal !important;
+    color: white !important;
+  }
+  /* .MuiPaper-elevation8{
+    background-color: teal !important;
+    color: white !important;
+  } */
+
+  .salary-slip-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .form-container {
+    width: 300px;
+    margin: auto;
+  }
+  
+  form label {
+    display: block;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 5px;
+    /* margin-top: 5px; */
+  }
+  
+  button {
+    margin-top: 15px;
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
